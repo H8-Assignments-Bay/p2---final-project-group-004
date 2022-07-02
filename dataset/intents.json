@@ -1,0 +1,48 @@
+{"intents": [
+    {
+    "tag": "memanggil",
+    "pattern":["hai","halo","oi","woy","woi","oy","coy","cuy","coi","oioi","oioioi","wey","haihaihalo","halohalohai","punten","bang","kak","abang","kakak","akang","kang","aa","neng","mba","mbak","mas","bro","sis","adek","dek","bot"],
+    "response":["hai juga!","halo","ehh, ada apa?","kenapa woy","iya cuy","iya coy","iya, ada yang saya bisa bantu?","apa sayang","iya neng?","iya kang","siapp, ada yg bisa saya bantu?","kenapa nih?","kenapa ya","hai juga cantik","hai juga ganteng","apa bro?","apa sis?"]
+    },
+    {
+    "tag":"dadah",
+    "pattern":["dadah","dadah bot","sampai jumpa","sampai jumpa bot","selamat tinggal","selamat tinggal bot","see you","see you bot","bye","byee","bye2","byebye","bye bot","byebye bot","byee bot","duluan ya","duluan ya bot","dah","daah","gbye bot","gbye","good bye","good byee","pamit dulu","pamit yaa","pamit dulu bot","makasih","makasih bot","makasih banyak","makasih banyak bot","thank you","ty","tq","terima kasih","terima kasih bot"],
+    "response":["dadah","dadah juga","sampai jumpa lagi","kalau ada masalah, kabarin lagi ya","see you juga","byee","oke baik, semoga harimu menyenangkan","okesip","oke","sama-sama","your welcome","terima kasih sudah menggunakan layanan bot"]
+    },
+    {
+    "tag":"pembatalan",
+    "pattern":["apakah saya bisa membatalkan pesanan?","apakah saya dapat membatalkan pesanan","bisakah saya membatalkan pesanan","apakah saya bisa membatalkan pesanan saya?","apakah saya dapat membatalkan pesanan saya?","bisa batalin pesanan saya ga?","bisa batalin pesanan saya?","apa bisa batalin pesanan?","bisa ga sih pesanan saya dibatalkan?","boleh batalin pesanan saya?","boleh batalin pesanan saya gak ya","saya ada salah beli barang, bisa di batalin?","mau batalin pesanan ini, apakah bisa?","saya gajadi pesen ini, bisa dibatalin ga?","saya kurang yakin dengan barangnya bisa dibatalkan pesanan saya?","saya kurang yakin dengan tokonya, bisa dibatalkan pesanan saya?","mau batalin pesanan saya","pengen batalin pesanan","batalin pesanan","batal pesan","mau melakukan pembatalan pesanan"],
+    "response":["halo kak, mohon maaf sudah tidak bisa mengajukan pembatalan pesanan ketika sudah mendapat konfirmasi pemesanan","hai kak, sudah tidak bisa mengajukan pembatalan pemesanan ya apabila sudah melakukan pembayaran dan konfirmas pemesanan","sebelumnya apa kakak sudah melakukan pembayaran dan mendapat konfirmasi pemesanan? jika sudah tidak bisa dilakukan pembatalan pemesanan","mohon maaf kak, jika barang sudah dibayar, tidak bisa melakukan pembatalan pesanannya, pastikan terlebih dahulu untuk mengecek barang sebelum melakukan pembayaran yaa","jika kakak belum melakukan pembayaran, maka kakak bisa melakukan pembatalan pemesanan atau tidak perlu membayar pesanan tersebut dalam jangka waktu 24jam, otomatis sistem akan membatalkan pesananan kakak"]
+    },
+    {
+    "tag":"complain",
+    "pattern":["saya mau mengajukan complain","mau complain","complain","mau complain, barang tidak sesuai pesanan","saya mau mengajukan complain, barang tidak sesuai pesanan","mau complain, barang tidak sesuai pesanan","complain, barang tidak sesuai pesanan","barangnya tidak sesuai, saya bisa mengajukan complain","barangnya tidak sesuai, bisakah saya mengajukan complain?","barangnya tidak sesuai, mau complain terkait barang","barangnya tidak sampe, gimana ya?","barangnya tidak kunjung datang","saya masih belum menerima barangnya","barangnya belum sampe juga","barangnya ga sampe","proses pengiriman selesai, tapi saya masih belum menerima barangnya"],
+    "response":["baik, saya akan bantu proses complainnya","baik, nanti akan kami proses ya kak 1x24 untuk melakukan tracing terkait barang dari seller dan buyer","bisa diinformasikan seperti apa?","mohon maaf untuk ketidaknyamanannya dalam transaksi, complainnya akan diajukan ke sistem, dan mohon menunggu ya, nanti akan kami informasikan kembali"]
+    },
+    {
+    "tag":"pembayaran",
+    "pattern":["bagaimana cara melakukan pembayaran?","gimana cara melakukan pembayaran?","mau melakukan pembayaran, caranya gimana ya?","mau bayar nih, gimana sih caranya?","cara bayarnya gimana ya?","bayarnya gimana ya?","mau melakukan pembayaran nih","cara bayar","cara bayar pesanan","bayarnya gimana sih caranya?"],
+    "response":["halo kak, pembayaran dapat dilihat di website ya dibagian metode pembayaran, apabila masih menemui kendala, bisa kabarin ke kami lagi ya","untuk cara pembayarannya bisa dilihat di website/metode pembayaran","halo kak, untuk metode pembayaran bisa dilakukan di website/metode pembayaran","untuk metode pembayaran bisa dicek di website, atau jika masih menemui kendala bisa hubungi CS melalui email atau nomor Whatsapp yang ada di website ya kak","hai kak jika sudah selesai melakukan pesanan dan ingin membayar pesanannya, bisa di cek diwebsite ya dibagian metode pembayaran, jika masih menemui kendala terkait pembayaran bisa hubungi kembali melalui email atau nomor Whatsapp, terima kasih"]
+    },
+    {
+    "tag":"metode_bayar",
+    "pattern":["metode pembayaran apa saja ya yang tersedia?","metode pembayaran apa aja","bayarnya bisa melalui apa aja ya?","metode pembayarannya apa aja sih?","metode pembayaran apa aja ya?","bayarnya lewat apa?","menerima metode pembayaran apa saja ya?","pembayaran","mau bayar"],
+    "response":["metode pembayaran yang diterima melalui bank transfer atau e-wallet saja ya","hai kak, metode pembayaran melalui bank transfer atau e-wallet saja ya","kakak bisa melakukan pembayaran melalui bank transfer atau e-wallet ya kak","metode pembayaran yang tersedia saat ini baru melalui bank transfer dan e-wallet ya kak","saat ini kami menerima pembayaran melalui bank transfer dan e-wallet ya kak"]
+    },
+    {
+    "tag":[""],
+    "pattern":[""],
+    "response":[""]
+    },
+    {
+    "tag":[""],
+    "pattern":[""],
+    "response":[""]
+    },
+    {
+    "tag":[""],
+    "pattern":[""],
+    "response":[""]
+    }
+]
+}
