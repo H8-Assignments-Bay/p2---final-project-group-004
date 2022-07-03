@@ -164,6 +164,20 @@
                 "Silahkan kunjungi tautan berikut ya kak www.git-coffee.com/kritik-saran untuk kritikan atau saran yang ingin kakak sampaikan, terima kasih banyak atas kepedulian kakak terhadap kami ya, semoga kedepannya bisa menjadi lebih baik dalam memberikan pelayanan"]
     },
     {
+    "tag":"tinggicafein",
+    "pattern":["Kopi tinggi cafein apa yaa", "saran kopi tinggi cafein dong", "rekomendasi kopi tinggi cafein?", "kopi yang tinggi cafein jenis kopi apa yaa?", "kopi tinggi kafein apa yaa", "saran kopi tinggi kafein dong", "rekomendasi kopi tinggi kafein?", "kopi yang tinggi kafein jenis kopi apa yaa?"],
+    "response":["Kalo kopi tinggi kafein mimin saranin buat coba robusta kak (:",
+                "Robusta cocok buat kakak yang butuh tinggi kafein",
+                "Kopi robusta kami memiliki kandungan kafein yang cukup tinggi untuk kakak yang butuh energi lebih untuk melek :D"]
+    },
+    {
+    "tag":"manis",
+    "pattern":["Saya suka kopi manis", "saran kopi manis dong", "rekomendasi kopi manis?", "kopi yang rasanya manis jenis kopi apa yaa?"],
+    "response":["Kalo kopi manis sih mimin saranin buat coba arabica/latte/macchiato/kopi rasa kak (:",
+                "Arabica aja kak kalo mau kopi yang rasanya lebih manis, kalo suka yang lebih manis bisa cobain latte/macchiato/kopi kreasi kami, silakan liat-liat di katalog yaa :D",
+                "Mimin saranin buat coba rabica/latte/macchiato/kopi rasa sih kalo mau yang manis-manis :)"]
+    },
+    {
     "tag":"arabica",
     "pattern":["Kopi arabica apa si?", "Apa itu kopi arabica?", "Jelasin kopi arabica", "Arabica", "Maksudnya kopi arabica apa ya?", "Arabican", "Kopi arabica", "Kopi arabican", "Jelaskan apa itu kopi arabica", "Apa yang dimaksud dengan kopi arabica", "Kopi arabica? Jelasin dong", "Bisa kasih tau maksud kopi arabica?", "Kopi arabica? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi arabica", "Kenapa disebut kopi arabica?", "Maksudnya kopi arabica itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi arabica", "Saya orang awam, jelasin dong kopi arabica itu apa", "arabica rasanya gimana?", "kopi arabica itu apa?", "tolong jelasin tentang kopi arabica dong"],
     "response":["Kopi arabica merupakan kopi yang berasal dari Etiophia di Afrika dan dibawa serta banyak dibudidayakan di Arab, kopi ini sangat digemari banyak orang kak karena memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi. Kopi arabica juga tidak begitu asam... jadi cocok nih buat kakak yang lambungnya tidak terlalu kuat untuk minum kopi",
