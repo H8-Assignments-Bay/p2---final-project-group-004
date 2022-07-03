@@ -1,7 +1,7 @@
 {"intents": [
     {
     "tag": "menyapa",
-    "pattern":["Hai","Halo", "Hei","Oi","Woy","Woi","Wey","Oy","Coy","Cuy","Coi","Oioi","Oioioi","Haihaihalo","Halohalohai","Punten","Permisi","Bang","Kak","Kakak","Abang","Akang","Kang","Aa","Neng","Mba","Mbak","Mas","Bro","Sis","Adek","Dek","Bot","Min","Admin","Hai bot","Halo min","Hai Admin"],
+    "pattern":["Hai","Halo", "Hei","Oi","Woy","Woi","Wey","Oy","Coy","Cuy","Coi","Oioi","Oioioi","Haihaihalo","Halohalohai","Punten","Permisi","Bang","Kak","Kakak","Abang","Akang","Kang","Aa","Neng","Mba","Mbak","Mas","Bro","Sis","Adek","Dek","Bot","Min","Admin","Hai bot","Halo min","Hai Admin","Selamat pagi", "Selamat malam", "Selamat siang", "Selamat sore", "Pagi", "Siang", "Sore", "Malam", "Hai, selamat pagi bot", "Hei, selamat siang bot", "Halo, selamat sore bot", "Hey, selamat malam bot"],
     "response":["Hai! ada yang bisa saya bantu?",
                 "Halo kak, ada yang bisa saya bantu?",
                 "Mari kak silahkan",
@@ -9,8 +9,8 @@
                 "Hai kak! ada yang mau ditanyakan?",
                 "Halo kak! ada yang mau ditanyakan? mungkin saya bisa bantu nih",
                 "Iya, ada yang saya bisa bantu?",
-                "Selamat datang di Nama Toko, ada yang bisa dibantu kak?",
-                "Hai kak, selamat datang di Nama Toko, apakah ada yang bisa saya bantu kak?",
+                "Selamat datang di Git Coffee, ada yang bisa dibantu kak?",
+                "Hai kak, selamat datang di Git Coffee, apakah ada yang bisa saya bantu kak?",
                 "Hai kak, terima kasih sudah menghubungi kami! apakah ada yang bisa saya bantu?",
                 "Ada yg bisa saya bantu kak?",
                 "Kenapa nih? ada yang bisa saya bantu kak?",
@@ -27,26 +27,44 @@
                 "Oke baik, semoga harimu menyenangkan kak!",
                 "Okesip, terima kasih sudah menguhubungi",
                 "Oke kak, terima kasih sudah bertanya",
-                "Terima kasih sudah menggunakan layanan bot Nama Toko",
+                "Terima kasih sudah menggunakan layanan bot Git Coffee",
                 "Sampai jumpa kak, semoga sehat selalu",
                 "Jangan sungkan untuk tanya-tanya lagi ya kak! see you!"]
     },
     {
-    "tag":"cafeIn",
-    "pattern":["Apa itu cafeIn?","cafeIn apaan sih?","Ada apa aja di cafeIn","Boleh tahu cafeIn itu apa?","Jelasi dong apa itu cafeIn", "Mau tau nih soal cafeIn","Deskripsi dari cafeIn apaya?", "CafeIn apasih? mau tau dong", "CafeIn", "Jelasin cafeIn bisa kali ya","Mau dong dijelasin tentang cafeIn","CafeIn apasi? baru denger nih","Namanya menarik nih cafeIn, jelasin dong apa itu cafeIn","CafeIn tempat ngopi ya?","CafeIn itu apaya? bisa beli kopi disini?","Ceritain tentang cafeIn dong","Bisa ceritain sedikit tentang cafeIn?"],
-    "response":["CafeIn adalah sebuah toko online yang menjual berbagai macam kopi produksi sendiri. Kami memiliki banyak jenis coffee siap saji yaitu arabica, robusta, luwak, latte, macchiato, dan kopi berbagai rasa lainnya kak",
-                "CafeIn menjual berbagai macam kopi siap saji produksi sendiri nih kak. Ada kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Silakan melihat katalog kami yaa untuk lebih lengkapnya di www.dummy-web.com (:",
-                "CafeIn adalah sebuah terobosan baru dalam dunia perkopian nih kak. Kami menjual berbagai macam kopi siap saji mulai dari kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Kopi mana nih favorite kakak? (:",
-                "CafeIn adalah sebuah toko online yang menjadi sebuah terobosan baru dalam dunia perkopian nih kak. Disini kami menjual berbagai macam kopi siap saji mulai dari kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Untuk info dan pemesanan produk kami, kakak bisa tanyakan disini atau kunjungi website kami di www.dummy-web.com ya kak",
-                "CafeIn adalah sebuah toko yang menjual berbagai macam kopi produksi sendiri secara online. Kami memiliki banyak jenis coffee siap saji yaitu arabica, robusta, luwak, latte, macchiato, dan kopi berbagai rasa lainnya kak, jika kakak tertarik dengan produk kami, kakak bisa tanyakan disini untuk beberapa informasi mengenai produk atau kunjungi website kami di www.dummy-web.com ya kak"]   
+    "tag":"nama toko",
+    "pattern":["Apa itu Git Coffee?","Git Coffee apaan sih?","Ada apa aja di Git Coffee","Boleh tahu Git Coffee itu apa?","Jelasi dong apa itu Git Coffee", "Mau tau nih soal Git Coffee","Deskripsi dari Git Coffee apaya?", "Git Coffee apasih? mau tau dong", "Git Coffee", "Jelasin Git Coffee bisa kali ya","Mau dong dijelasin tentang Git Coffee","Git Coffee apasi? baru denger nih","Namanya menarik nih Git Coffee, jelasin dong apa itu Git Coffee","Git Coffee tempat ngopi ya?","Git Coffee itu apaya? bisa beli kopi disini?","Ceritain tentang Git Coffee dong","Bisa ceritain sedikit tentang Git Coffee?"],
+    "response":["Git Coffee adalah sebuah toko online yang menjual berbagai macam kopi produksi sendiri. Kami memiliki banyak jenis coffee siap saji yaitu arabica, robusta, luwak, latte, macchiato, dan kopi berbagai rasa lainnya kak",
+                "Git Coffee menjual berbagai macam kopi siap saji produksi sendiri nih kak. Ada kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Silakan melihat katalog kami yaa untuk lebih lengkapnya di www.Git Coffee.com (:",
+                "Git Coffee adalah sebuah terobosan baru dalam dunia perkopian nih kak. Kami menjual berbagai macam kopi siap saji mulai dari kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Kopi mana nih favorite kakak? (:",
+                "Git Coffee adalah sebuah toko online yang menjadi sebuah terobosan baru dalam dunia perkopian nih kak. Disini kami menjual berbagai macam kopi siap saji mulai dari kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Untuk info dan pemesanan produk kami, kakak bisa tanyakan disini atau kunjungi website kami di www.git-coffee.com ya kak",
+                "Git Coffee adalah sebuah toko yang menjual berbagai macam kopi produksi sendiri secara online. Kami memiliki banyak jenis coffee siap saji yaitu arabica, robusta, luwak, latte, macchiato, dan kopi berbagai rasa lainnya kak, jika kakak tertarik dengan produk kami, kakak bisa tanyakan disini untuk beberapa informasi mengenai produk atau kunjungi website kami di www.git-coffee.com ya kak"]   
+    },
+    {
+    "tag":["nama"],
+    "pattern":["Namanya siapa ya?", "Kamu bisa dipanggil apa nih?", "Dipanggil apa?", "Namanya?", "Nama", "Panggilannya apa?", "Dipanggilnya apa ya?", "Nama botnya apa?", "Namamu siapa si?", "Boleh tau namanya?", "Biasa dipanggil apa nih?", "Nama panggilanmu siapa?", "Punya nama ga?", "Punya nama? kasih tau boleh dong", "Kenalan dulu boleh kali", "Kenalan dong", "Mau kenal nih, namamu siapa si?", "Kamu dipanggil apa nih biasanya sama orang-orang?"],
+    "response":["Namaku Gitcoff kak, salam kenal",
+                "Kakak bisa panggil aku Gitcoff ya, salam kenal",
+                "Salam kenal kak, aku Gitcoff",
+                "Aku Gitcoff kak, salam kenal ya",
+                "Panggilanku Gitcoff... Salam kenal kak"]
+    },
+    {
+    "tag":["tugas"],
+    "pattern":["Fungsi kamu ngapain disini?", "Tugas kamu apa?", "Kamu bisa ngapain aja?", "Apa tugasmu disini", "Kamu bisa bantuin apa aja emang?", "Tugas", "Fungsi", "Bantuan", "Mau tau tugasmu dong", "Mau tau fungsi kamu", "Kamu dikasih tugas apa?", "Kamu bisa bantuin akau apa?", "Emang kamu bisa bantuin apa si? Fungsi kamu apa disini?", "Bisa bantuin emangnya?", "Tugasmu disini ngapain gitcoff?", "Fungsimu disini apa ya gitcoff?", "Gitcoff bisa ngapain aja?", "Gitcoff bisa bantuin apa aja nih", "Gitcoff fungsinya apa disini?"],
+    "response":["Tugasku disini untuk menjawab pertanyaan-pertanyaan kakak nih seputar produk, pemesanan, pembayaran, dan lain-lain. Misalkan aku belum paham pertanyaannya, nanti kakak bisa disambungkan ke CS kami",
+                "Aku bisa bantuin untuk menjawab pertanyaan dari kakak seputar produk, pemesanan, pembayaran, dan lain-lain, nanti misalkan aku belum paham pertanyaan dari kakak, nanti kakak bisa disambungkan langsung ke CS kami kok",
+                "Disini aku bisa bantuin jawab pertanyaan dari kakak seputar produk, pemesanan, pembayaran, dan lain-lain ya. Jangan khawatir ya kak kalau aku masih belum bisa menjawab beberapa pertanyaan kakak, nanti masih bisa disambungkan langsung kok dengan CS kami",
+                "Tenang kak, disini aku bisa bantu untuk jawab pertanyaan kakak seputar produk, pemesanan, pembayaran, dan lain-lain ya. Kalau aku masih belum paham sama pertanyaan kakak, nanti bisa disambungkan langsung ke CS kami kok",
+                "Tugasku untuk menjawab pertanyaan kakak seputar produk, pemesanan, pembayaran, dan lain-lain ya. Tapi maaf kak sebelumnya, karena aku masih belajar... jadi ada beberapa pertanyaan yang masih aku belum pahami, tapi jangan khawatir kak, nanti kakak bisa disambungkan langsung kok dengan CS kami"]
     },
     {
     "tag":"pemesanan",
     "pattern":["Bagaimana cara memesan?", "Bagaimana caranya memesan produk?", "Gemana si cara pesannya?", "Cara pesan kopinya gemana?", "Mau pesen kopinya nih, caranya gemana?", "Mau beli kopinya, gemana caranya?", "Mau mesen kopinya, caranya gemana si?", "Cara beli kopinya gemana ya?", "Cara order", "Cara pesan kopi", "Cara beli", "Cara beli kopi", "Cara pesen", "Ajarin cara pesennya dong", "Bisa jelasin cara pesannya?", "Saya tertarik nih dan mau pesan, gemana caranya ya?", "Cara pesannya gemana tuh?", "Cara pesan", "Cara pesen", "Cara melakukan pemesanan", "Cara memesan produk", "Cara memesan kopi","Jelasin ya cara pesen kopinya", "Caranya pesen gemana tuh?", "Pesannya bagaimana ya?"],
-    "response":["Kakak bisa memilih produk kopi yang diinginkan dan menekan tombol tambah, lalu untuk memproses pesanannya cukup menekan tombol checkout pada bagian menu keranjang belanja dan mengisi form pengiriman, setelah itu kakak bisa melakukan pembayaran. Cara pemesanan yang lebih detail bisa kakak lihat pada www.dummy-web.com/cara-pesan, apabila kakak mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp",
-                "Untuk cara melakukan pemesanan kakak bisa memilih produk kopi yang diinginkan dan menekan tombol tambah, lalu untuk memproses pesanannya cukup menekan tombol checkout pada bagian menu keranjang belanja dan mengisi form pengiriman ya, setelah itu kakak bisa melakukan pembayaran. Apabila kakak mengalami kebingunan dalam memesan, Langkah-langkahnya dapat kakak lihat pada www.dummy-web.com/cara-pesan, apabila kakak masih mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp ya",
-                "Untuk langkah-langkah melakukan pemesanan bisa kakak lihat pada www.dummy-web.com/cara-pesan, apabila kakak masih mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp ya”, “Kakak bisa memesan produk pada website resmi kami di www.web.com, untuk cara pemesanannya bisa kakak lihat pada www.web.com/cara-pesan ya, apabila kakak masih mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp",
-                "Kakak cukup memilih produk kopi yang diinginkan dan menekan tombol tambah, lalu untuk memproses pesanannya cukup menekan tombol checkout pada bagian menu keranjang belanja, dan kemudian kakak harus melengkapi form pengiriman, setelah itu kakak bisa melakukan pembayaran. Cara pemesanan yang lebih detail bisa kakak lihat pada www.dummy-web.com/cara-pesan ya kak, apabila kakak mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp"]
+    "response":["Kakak bisa memilih produk kopi yang diinginkan dan menekan tombol tambah, lalu untuk memproses pesanannya cukup menekan tombol checkout pada bagian menu keranjang belanja dan mengisi form pengiriman, setelah itu kakak bisa melakukan pembayaran. Cara pemesanan yang lebih detail bisa kakak lihat pada www.git-coffee.com/cara-pesan, apabila kakak mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp",
+                "Untuk cara melakukan pemesanan kakak bisa memilih produk kopi yang diinginkan dan menekan tombol tambah, lalu untuk memproses pesanannya cukup menekan tombol checkout pada bagian menu keranjang belanja dan mengisi form pengiriman ya, setelah itu kakak bisa melakukan pembayaran. Apabila kakak mengalami kebingunan dalam memesan, Langkah-langkahnya dapat kakak lihat pada www.git-coffee.com/cara-pesan, apabila kakak masih mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp ya",
+                "Untuk langkah-langkah melakukan pemesanan bisa kakak lihat pada www.git-coffee.com/cara-pesan, apabila kakak masih mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp ya”, “Kakak bisa memesan produk pada website resmi kami di www.web.com, untuk cara pemesanannya bisa kakak lihat pada www.web.com/cara-pesan ya, apabila kakak masih mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp",
+                "Kakak cukup memilih produk kopi yang diinginkan dan menekan tombol tambah, lalu untuk memproses pesanannya cukup menekan tombol checkout pada bagian menu keranjang belanja, dan kemudian kakak harus melengkapi form pengiriman, setelah itu kakak bisa melakukan pembayaran. Cara pemesanan yang lebih detail bisa kakak lihat pada www.git-coffee.com/cara-pesan ya kak, apabila kakak mengalami kendala atau ingin memesan langsung tanpa melalui website kami bisa menghubungi langsung CS kami di WA, Email, dan No-Telp"]
     },
     {
     "tag":"pembatalan",
@@ -60,54 +78,54 @@
     {
     "tag":"pembayaran",
     "pattern":["Bagaimana cara melakukan pembayaran?","Gimana cara melakukan pembayaran?","Mau melakukan pembayaran, caranya gimana ya?","Mau bayar nih, gimana sih caranya?","Cara bayarnya gimana ya?","Bayarnya gimana ya?","Mau melakukan pembayaran nih","Cara bayar","Cara bayar pesanan","Bayarnya gimana sih caranya?", "Mau proses belanjaan, cara bayarnya gemana?", "Metode pembayaran", "Mau bayar tapi bingung, gemana caranya ya?", "Ajarin cara bayarnya dong", "Bisa kasih tau cara bayarnya?", "Cara bayar pesanannya gemana si?","Bantuin cara bayarnya bisa kah?","Cara bayarnya gemana ya? masih kurang paham nih","Mau bayar pesanan kopi tapi gatau cara bayarnya","Tinggal bayar aja tapi bingung caranya","Cara bayarnya gemana tuh? kasih tau dong"],
-    "response":["Untuk informasi cara pembayaran kakak bisa mengklik tautan ini www.dummy-web.com/metode-pembayaran, apabila masih menemui kendala, kakak bisa menghubungi CS kami di WA, Email, dan No-Telp ya",
-                "Untuk cara pembayarannya bisa kakak lihat pada www.dummy-web.com/metode-pembayaran, nanti kalau kakak masih menemui kendala terkait pembayaran kakak bisa menghubungi CS kami di WA, Email, dan No-Telp ya",
-                "Sudah ingin membayar pesanan ya? untuk langkah-langkahnya bisa kakak lihat pada www.dummy-web.com/metode-pembayaran ya, nanti misalkan kakak ada kesulitan atau menemui kendala terkait pembayaran kakak bisa menghubungi CS kami di WA, Email, dan No-Telp", 
-                "Untuk melakukan pembayaran kakak bisa mengikuti instruksi pada link berikut www.dummy-web.com/metode-pembayaran, apabila kakak menemui kendala dalam melakukan pembayaran, kakak bisa menghubungi CS kami di WA, Email, dan No-Telp",
-                "Untuk metode pembayaran bisa dicek pada www.dummy-web.com/metode-pembayaran, apabila kakak mengalami kesulitan dan sebagainya dalam melakukan pembayaran, kakak bisa menghubungi CS kami di WA, Email, dan No-Telp",
-                "Hai kak jika sudah selesai melakukan pesanan dan ingin melakukan pemembayaran, instruksinya bisa kakak cek di www.dummy-web.com/metode-pembayaran, kakak juga bisa menghubungi CS kami di WA, Email, dan No-Telp apabila mengalami kesulitan dalam melakukan pembayaran ya, terima kasih"]
+    "response":["Untuk informasi cara pembayaran kakak bisa mengklik tautan ini www.git-coffee.com/metode-pembayaran, apabila masih menemui kendala, kakak bisa menghubungi CS kami di WA, Email, dan No-Telp ya",
+                "Untuk cara pembayarannya bisa kakak lihat pada www.git-coffee.com/metode-pembayaran, nanti kalau kakak masih menemui kendala terkait pembayaran kakak bisa menghubungi CS kami di WA, Email, dan No-Telp ya",
+                "Sudah ingin membayar pesanan ya? untuk langkah-langkahnya bisa kakak lihat pada www.git-coffee.com/metode-pembayaran ya, nanti misalkan kakak ada kesulitan atau menemui kendala terkait pembayaran kakak bisa menghubungi CS kami di WA, Email, dan No-Telp", 
+                "Untuk melakukan pembayaran kakak bisa mengikuti instruksi pada link berikut www.git-coffee.com/metode-pembayaran, apabila kakak menemui kendala dalam melakukan pembayaran, kakak bisa menghubungi CS kami di WA, Email, dan No-Telp",
+                "Untuk metode pembayaran bisa dicek pada www.git-coffee.com/metode-pembayaran, apabila kakak mengalami kesulitan dan sebagainya dalam melakukan pembayaran, kakak bisa menghubungi CS kami di WA, Email, dan No-Telp",
+                "Hai kak jika sudah selesai melakukan pesanan dan ingin melakukan pemembayaran, instruksinya bisa kakak cek di www.git-coffee.com/metode-pembayaran, kakak juga bisa menghubungi CS kami di WA, Email, dan No-Telp apabila mengalami kesulitan dalam melakukan pembayaran ya, terima kasih"]
     },
     {
-    "tag":"metode_bayar",
+    "tag":"metode bayar",
     "pattern":["Metode pembayaran apa saja ya yang tersedia?","Metode pembayaran apa aja?","Bayarnya bisa melalui apa aja ya?","Metode pembayarannya apa aja sih?","Metode pembayaran apa aja ya?","Bayarnya bisa lewat apa?","Menerima metode pembayaran apa saja ya?","Metode pembayaran","Bayar pesanan bisa lewat apa aja ya?", "Metode bayar", "Bayarnya bisa pake apa aja ya?", "Dapat melakukan pembayaran dengan metode apa saja ya", "Bayarnya bisa lewat apa aja nih?", "Disini menerima pembayaran via apa aja?", "Bisa bayar via apa aja?", "Bayar via apa ya?", "Bayarnya bisa pakai apa aja ya?", "Metode pembayarannya apa aja sih di toko ini?", "Ada metode pembayaran apa aja tuh?", "Boleh tau metode pembayarannya lewat apa saja?","Mau tau metode pembayarannya dong","Bisa bayar lewat apa aja nih di toko ini?"],
-    "response":["Untuk saat ini metode pembayaran yang diterima hanya melalui Bank Transfer dan E-Wallet saja ya kak, untuk lebih jelasnya dapat kakak lihat pada www.dummy-web.com/metode-pembayaran",
+    "response":["Untuk saat ini metode pembayaran yang diterima hanya melalui Bank Transfer dan E-Wallet saja ya kak, untuk lebih jelasnya dapat kakak lihat pada www.git-coffee.com/metode-pembayaran",
                 "Kakak bisa melakukan pembayaran melalui Bank Transfer atau E-Wallet ya, untuk lebih jelasnya mengenai cara pembayaran dan nomor rekening dapat kakak lihat pada www.web.com/metode-pembayaran",
-                "Untuk metode pembayaran yang tersedia saat ini hanyalah melalui Bank Transfer dan E-Wallet saja ya kak... Untuk info terkait pembayaran bisa kaka lihat pada www.dummy-web.com/metode-pembayaran", 
-                "Untuk metode pembayarannya kakak bisa memilih mau melakukan pembayaran via Bank Transfer atau E-Wallet ya kak... Terkait informasi pembayaran juga bisa kakak lihad pada link berikut www.dummy-web.com/metode-pembayaran",
-                "Metode pembayaran yang kami gunakan saat ini baru bisa melalui Bank Transfer dan E-Wallet ya kak, untuk info pembayarannya sendiri bisa kakak lihat nih di www.dummy-web.com/metode-pembayaran"]
+                "Untuk metode pembayaran yang tersedia saat ini hanyalah melalui Bank Transfer dan E-Wallet saja ya kak... Untuk info terkait pembayaran bisa kaka lihat pada www.git-coffee.com/metode-pembayaran", 
+                "Untuk metode pembayarannya kakak bisa memilih mau melakukan pembayaran via Bank Transfer atau E-Wallet ya kak... Terkait informasi pembayaran juga bisa kakak lihad pada link berikut www.git-coffee.com/metode-pembayaran",
+                "Metode pembayaran yang kami gunakan saat ini baru bisa melalui Bank Transfer dan E-Wallet ya kak, untuk info pembayarannya sendiri bisa kakak lihat nih di www.git-coffee.com/metode-pembayaran"]
     },
     {
     "tag":"transfer",
     "pattern":["Apakah bisa menggunakan transfer bank untuk melakukan pembayaran?","Apakah bisa melalui transfer bank untuk pembayarannya?","Bisa transfer?","Bisa bayar lewat transfer bank?","Kalau mau transfer, bisa lewat mana?","Bisa transfer kemana aja?","Bank mana aja kalo mau transfer?","Bisa lewat bank mana aja kalau mau transfer?","Lewat bank apa aja ya kalo mau transfer?", "Transfer", "Transfer bank", "Rekening bank", "Bisa transfer? kalau bisa ke rekening bank apa aja ya?", "Disini kalau mau transfer bisa ke bank mana aja?", "Boleh tau nomor rekening banknya?", "Berapa nomor rekeningnya?", "Mau bayar nih, nomor rekeningnya kasih tau dong", "Minta daftar rekeningnya untuk pembayaran", "Ini pembayarannya bisa transfer ke bank apa saja ya?", "Bisa transfer bank kan ya? kemana aja tuh?","Transfer kemana nih, bagi nomer rekeningnya dong","Nomer rekening bank"],
-    "response":["Untuk metode pembayaran via Transfer Bank kakak bisa melalui Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek. Info lengkap mengenai pembayaran bisa kakak lihat pada www.dummy-web.com/metode-pembayaran", 
+    "response":["Untuk metode pembayaran via Transfer Bank kakak bisa melalui Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek. Info lengkap mengenai pembayaran bisa kakak lihat pada www.git-coffee.com/metode-pembayaran", 
                 "Kakak bisa Transfer ke Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek ya. Untuk info lengkap mengenai pembayaran bisa kakak lihat nih di www.web.com/metode-pembayaran", 
-                "Ini daftar rekening kita kak: Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek. Info pembayaran juga bisa kakak lihat ya di www.dummy-web.com/metode-pembayaran", 
-                "Untuk saat ini kakak bisa melakukan pembayaran via Transfer Bank pada Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek, info pembayarannya bisa dilihat juga ya kak pada  www.dummy-web.com/metode-pembayaran"]
+                "Ini daftar rekening kita kak: Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek. Info pembayaran juga bisa kakak lihat ya di www.git-coffee.com/metode-pembayaran", 
+                "Untuk saat ini kakak bisa melakukan pembayaran via Transfer Bank pada Bank A dengan No.Rek, Bank B dengan No.Rek, dan Bank C dengan No.Rek, info pembayarannya bisa dilihat juga ya kak pada  www.git-coffee.com/metode-pembayaran"]
     },
     {
     "tag":"e-wallet",
     "pattern":["Apakah bisa menggunakan e-wallet untuk melakukan pembayaran?", "Apakah bisa e-wallet untuk pembayarannya?", "Bisa pakai e-wallet?", "Bisa bayar lewat e-wallet?", "Kalau mau pakai e-wallet, bisa lewat mana?", "Pakai e-wallet bisa transfer kemana aja?", "Bisa bayar pakai gopay?", "Bisa bayar pakai ovo?", "Bisa bayar pakai dana?", "Bisa bayar pakai Shopee Pay?","Bisa bayar pakai Shopeepay?", "Bisa bayar pakai Qris?","E-wallet", "Platform E-wallet", "Transfer E-wallet", "Gopay", "Dana", "Ovo", "Shopeepay","Shopee pay","Qris", "Mau bayar lewat e-wallet bisa gak si?", "bisa bayar lewat e-wallet kan?", "Bayar pakai gopay bisa gak?","Bayar pakai dana bisa gak?","Bayar pakai ovo bisa gak?","Bayar pakai shopeepay bisa gak?", "Bayar pakai shopee pay bisa gak?", "Bayar pakai qris bisa gak?", "Kalau mau bayar pake e-wallet bisa lewat mana aja ya?","Minta daftar pembayaran lewat e-wallet dong","Boleh tau daftar pembayaran lewat e-walletnya?","Bisa bayar kemana nih kalau mau pake e-wallet", "E wallet", "Bisa dong bayar pake e wallet", "Disini udah bisa bayar pake e wallet?"],
-    "response":["Saat ini untuk metode pembayaran via E-Wallet kakak bisa melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor. Info lengkap mengenai pembayaran bisa kakak lihat pada www.dummy-web.com/metode-pembayaran",
-                "Untuk pembayaran via E-Wallet bisa melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor, atau lebih jelasnya bisa kakak lihat pada www.dummy-web.com/metode-pembayaran", 
-                "Kakak bisa melakukan pembayaran melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor, apabila ingin mengetahui detail pembayaran lebih lanjut, kaka bisa lihat pada www.dummy-web.com/metode-pembayaran", 
-                "Untuk E-Wallet, saat ini kami hanya menerima melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor saja ya kak, nanti informasi terkait pembayaran bisa kakak lihat pada www.dummy-web.com/metode-pembayaran nih",
-                "Ini daftar pembayaran melalui E-Wallet ya kak Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor. Misalkan kakak penasaran dengan cara pembayarannya bisa dilihat juga pada www.dummy-web.com/metode-pembayaran"]
+    "response":["Saat ini untuk metode pembayaran via E-Wallet kakak bisa melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor. Info lengkap mengenai pembayaran bisa kakak lihat pada www.git-coffee.com/metode-pembayaran",
+                "Untuk pembayaran via E-Wallet bisa melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor, atau lebih jelasnya bisa kakak lihat pada www.git-coffee.com/metode-pembayaran", 
+                "Kakak bisa melakukan pembayaran melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor, apabila ingin mengetahui detail pembayaran lebih lanjut, kaka bisa lihat pada www.git-coffee.com/metode-pembayaran", 
+                "Untuk E-Wallet, saat ini kami hanya menerima melalui Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor saja ya kak, nanti informasi terkait pembayaran bisa kakak lihat pada www.git-coffee.com/metode-pembayaran nih",
+                "Ini daftar pembayaran melalui E-Wallet ya kak Gopay dengan Nomor, Dana dengan Nomor, dan OVO dengan Nomor. Misalkan kakak penasaran dengan cara pembayarannya bisa dilihat juga pada www.git-coffee.com/metode-pembayaran"]
     },
     {
     "tag":"pengiriman",
     "pattern":["Untuk pengiriman menggunakan jasa apa saja?", "Pengirimannya menggunakan apa saja", "Pengirimannya lewat mana aja?", "Pakai jasa pengiriman apa aja?", "Bisa kirim lewat pos?", "Bisa kirim lewat jne?", "Bisa kirim lewat sicepat?", "Bisa kirim lewat jnt?", "Bisa kirim lewat j&t?", "Bisa kirim lewat tiki?", "Jasa kirim apa saja yang dipakai?", "Bisa kirim lewat apa saja?", "Pengiriman lewat apa?", "Jasa kirim", "Pengiriman pesanan", "Tiki", "Jne", "Jnt", "j&t", "Pos", "Pos Indonesia", "Boleh tau daftar jasa pengiriman yang digunakan?", "Mau tau dong jasa pengiriman apa aja yang dipakai","Bisa minta daftar jasa pengirimannya?", "Pakai jasa pengiriman apa aja nih disini?", "Daftar jasa kirim", "Daftar jasa pengiriman paket","Paketnya dkirim pake jasa apa ya?"],
-    "response":["Saat ini kami hanya menggunakan jasa pengiriman POS Indonesia, SiCepat, JNE, J&T, dan TIKI. Info lengkap mengenai pengiriman barang bisa kakak lihat lihat pada www.dummy-web.com/pengiriman",
-                "Untuk jasa pengiriman kami menggunakan POS Indonesia, SiCepat, JNE, J&T, dan TIKI, atau lebih jelasnya bisa kakak lihat pada www.dummy-web.com/pengiriman",
-                "Kami mempercayakan terkait pengiriman kepada jasa pengiriman POS Indonesia, SiCepat, JNE, J&T, dan TIKI kak, apabila ingin mengetahui detail pengiriman lebih lanjut, kakak bisa lihat pada www.dummy-web.com/pengiriman",
-                "Daftar jasa pengiriman yang kami gunakan saat ini yaitu POS Indonesia, SiCepat, JNE, J&T, dan TIKI. Informasi terkait pengiriman bisa kakak lihat ya pada www.dummy-web.com/pengiriman"]
+    "response":["Saat ini kami hanya menggunakan jasa pengiriman POS Indonesia, SiCepat, JNE, J&T, dan TIKI. Info lengkap mengenai pengiriman barang bisa kakak lihat lihat pada www.git-coffee.com/pengiriman",
+                "Untuk jasa pengiriman kami menggunakan POS Indonesia, SiCepat, JNE, J&T, dan TIKI, atau lebih jelasnya bisa kakak lihat pada www.git-coffee.com/pengiriman",
+                "Kami mempercayakan terkait pengiriman kepada jasa pengiriman POS Indonesia, SiCepat, JNE, J&T, dan TIKI kak, apabila ingin mengetahui detail pengiriman lebih lanjut, kakak bisa lihat pada www.git-coffee.com/pengiriman",
+                "Daftar jasa pengiriman yang kami gunakan saat ini yaitu POS Indonesia, SiCepat, JNE, J&T, dan TIKI. Informasi terkait pengiriman bisa kakak lihat ya pada www.git-coffee.com/pengiriman"]
     },
     {
     "tag":"status_pesanan",
     "pattern":["Saya ingin mengetahui status pesanan saya", "Cara mengetahui status pesanan bagaimana ya?", "Status pesanan", "Info Pesanan", "Info status pesanan", "Apakah pesanan saya sudah diproses?", "Apakah pesanan saya sudah kirim?", "Pesanan saya sudah diproses atau belum ya?", "Pesanan saya sudah diproses belum?", "Mau tau status pesanan, caranya gemana ya?", "Cara lihat status pesanan gemana ya?", "Info pesanannya bisa diliat dimana si?", "Mau tau informasi pesanan", "Informasi pesanan saya bisa dilihat dimana ya?", "Kalau mau ngecek status pesanan dimana si?", "Caranya ngecek status pesanan gemana?", "Bagaimana caranya saya melihat status dari pesanan saya", "Liat info pesanan dimana?","Cara tau status pesanan saya gemana si?", "Status pesanan ada dimana ya? bingung nih", "Kasih tau terkait status pesanan dong"],
-    "response":["Terkait status pesanan kakak dapat dilihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik tautan berikut www.dummy-web.com/Akun/Status-Pesanan, terima kasih atas pesanannya!",
-                "Sebelummnya terima kasih kak sudah melakukan pemesanan pada toko kami, terkait status pesanan dapat kakak lihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik tautan berikut www.dummy-web.com/Akun/Status-Pesanan",
-                "Terima kasih banyak kak sudah melakukan pemesanan pada toko kami, untuk status pemesanan kakak dapat dilihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik pada tautan berikut www.dummy-web.com/Akun/Status-Pesanan ya kak",
-                "Untuk memantau status pemesanan kakak, dapat dilihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik pada tautan berikut www.dummy-web.com/Akun/Status-Pesanan. Terima kasih atas pesanannya!"]
+    "response":["Terkait status pesanan kakak dapat dilihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik tautan berikut www.git-coffee.com/Akun/Status-Pesanan, terima kasih atas pesanannya!",
+                "Sebelummnya terima kasih kak sudah melakukan pemesanan pada toko kami, terkait status pesanan dapat kakak lihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik tautan berikut www.git-coffee.com/Akun/Status-Pesanan",
+                "Terima kasih banyak kak sudah melakukan pemesanan pada toko kami, untuk status pemesanan kakak dapat dilihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik pada tautan berikut www.git-coffee.com/Akun/Status-Pesanan ya kak",
+                "Untuk memantau status pemesanan kakak, dapat dilihat pada menu Akun dan pilih bagian Status Pesanan atau kakak bisa mengklik pada tautan berikut www.git-coffee.com/Akun/Status-Pesanan. Terima kasih atas pesanannya!"]
     },
     {
     "tag":"estimasi",
@@ -120,24 +138,52 @@
                 "Kemungkinan paketnya sampai rumah kakak bisa dalam waktu 2 sampai 3 hari ya untuk paling cepatnya, sedangkan ada kemungkinan untuk waktu terlamanya adalah 7 hari"]
     },
     {
-    "tag":"complain",
-    "pattern":["Saya mau mengajukan complain","Mau complain","Complain","Mau complain, barang tidak sesuai pesanan","Saya mau mengajukan complain, barang tidak sesuai pesanan","Mau complain, barang tidak sesuai pesanan","Complain, barang tidak sesuai pesanan","Barangnya tidak sesuai, saya bisa mengajukan complain?","Barangnya tidak sesuai, mau complain terkait barang","Barangnya tidak sampe, gimana ya?","Barangnya tidak kunjung datang","Saya masih belum menerima barangnya","Barangnya belum sampe juga","Barangnya ga sampe","Proses pengiriman selesai, tapi saya masih belum menerima barangnya",],
-    "response":["baik, saya akan bantu proses complainnya","baik, nanti akan kami proses ya kak 1x24 untuk melakukan tracing terkait barang dari seller dan buyer","bisa diinformasikan seperti apa?","mohon maaf untuk ketidaknyamanannya dalam transaksi, complainnya akan diajukan ke sistem, dan mohon menunggu ya, nanti akan kami informasikan kembali"]
-        },
-    {
-    "tag":[""],
-    "pattern":[""],
-    "response":[""]
+    "tag":"komplain",
+    "pattern":["Kok kopinya gini si","Kok barangnya gini yang dateng","Kok pengemasannya tidak memuaskan ya","Kok kopinya tidak sesuai ekspektasi saya ya","Kopinya ga sesuai deskripsi nih","Kopinya tidak seperti yang aku harapkan","Kopinya ga enak","Mau komplain, bisa gak ya?","Kopi yang datang kok beda ya?", "Barang yang dateng kok tidak sesuai?", "Barangnya gak sesuai pesanan", "Saya mau mengajukan komplain","Mau komplain","Komplain", "Saya mau mengajukan komplen","Mau komplen", "Komplen","Mau komplain nih, barang tidak sesuai pesanan","Saya mau mengajukan komplain, barang tidak sesuai pesanan","Barangnya tidak sesuai, saya bisa mengajukan komplain?","Barangnya tidak sesuai, mau komplain terkait barang","Barangnya tidak sampe, gimana ya?","Barangnya tidak kunjung datang","Saya masih belum menerima barangnya","Barangnya belum sampe juga","Barangnya ga sampe","Proses pengiriman selesai, tapi saya masih belum menerima barangnya","Barang yang datang tidak sesuai pesanan saya, gemana nih? bisa mengajukan komplain?", "Kok kemasannya agak penyok ya", "Ada cacat sama paketnya", "Pengemasannya ga rapi nih", "Pengemasannya kurang bagus", "Kopinya beda dari yang saya pesan"],
+    "response":["Baik kak mohon maaf atas hal yang dialami, terkait komplain kakak silahkan isi form pengaduan pada tautan berikut ya www.git-coffee.com/form-aduan, komplain kakak akan kami proses dalam waktu 1x24 jam, mohon ditunggu",
+                "Mohon maaf kak atas ketidaknyamanan yang kakak alami, kakak bisa mengisi form pada tautan berikut ini www.git-coffee./form-aduan agar kami dapat memproses komplain kakak dalam waktu 1x24 jam, mohon ditunggu ya",
+                "Kakak bisa menyampaikan komplain dengan mengisi pada form pengaduan pada tautan berikut ya www.git-coffee.com/form-aduan ya kak, komplain kakak akan di proses dalam waktu 1x24 jam, mohon ditunggu dan kami mohon maaf atas ketidaknyamanaannya",
+                "Silahkan isi form pengaduan pada tautan berikut www.git-coffee.com/form-aduan kak, nanti komplain kakak akan kami proses dalam waktu 1x24 jam ya, mohon ditunggu dan maaf atas ketidaknyamanannya"]
     },
     {
-    "tag":[""],
-    "pattern":[""],
-    "response":[""]
+    "tag":["produk"],
+    "pattern":["Jual produk apa?", "Jualan apa si?", "Yang dijual apa ya?", "Mau tau produknya dong", "Git coffee jualan apa si?", "Apa yang dijual disini?", "Disini jualan apaan?", "Apa produk yang kamu jual?", "Jualan produk apa aja disini si?", "Mau tau produknya", "Tertarik sama tokonya nih, jualan apa aja ya?", "Kasih tau produk yang anda jual", "Beritahu produk kalian dong", "Produk yang dijual apa aja ya? banyak ga?", "Ada berapa macam produk yang dijual disini?", "Mau beli nih, ada apa aja si produknya yang dijual", "Produk", "Jualan", "Jualan apa?", "Daftar produknya dong"],
+    "response":["Git Coffee menjual kopi dalam bentuk bubuk kak seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Kalau kakak penasaran sama info lengkap produk yang kami jual bisa dilihat pada www.git-coffe.com/produk ya kak... Kopi mana nih yang jadi favorit kakak?",
+                "Di Git Coffee kita menjual kopi dalam bentuk bubuk ya kak seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya, info produk secara lengkapnya bisa kakak lihat di www.git-coffee.com/produk ya kak",
+                "Disini kita jual produk kopi dalam bentuk bubuk kak, ada beberapa jenisnya seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Oiya, kalau kakak ingin tau lebih lanjut mengenai produk yang kita jual, bisa klik tautan ini ya kak www.git-coffee.com/produk",
+                "Produk yang kami jual di Git Coffe adalah kopi dalam bentuk bubuk ya kak, untuk jenisnya seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Kakak bisa akses informasi lengkap terkait produk kita di www.git-coffee.com/produk ya kak",
+                "Kopi dalam bentuk bubuk adalah produk yang kami jual kak, untuk variannya seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Informasi lengkap produknya bisa kaka lihat di www.git-coffee.com/produk ya kak"]
     },
     {
-    "tag":[""],
-    "pattern":[""],
-    "response":[""]
+    "tag":["kritik saran"],
+    "pattern":["Mau kasih kritik nih", "Aku ada saran buat kalian", "Bisa kasih masukan?", "Boleh kan kasih masukan ke kalian?", "Boleh kasih kritikan ke kalian?", "Kritikan", "Saran", "Memberi kritik dan saran", "Mau ngasih kritik dan saran gemana caranya?", "Mau ngasih masukan buat kalian tapi gatau caranya", "Kalau mau ngasih masukan lewat mana ya?","Masukan","Aku punya kritik sama saran nih buat kalian", "Aku punya masukan yang bagus nih buat git coffee", "Aku punya ide menarik untuk bisnismu", "Mau ngasih ide buat jualannya", "Ide", "Ada ide menarik nih buat kalian, ada kritikan juga", "Ada kritikan yang ingin saya beri", "Ada beberapa masukan yang ingin saya sampaikan", "Ada kritikan yang ingin saya sampaikan untuk kalian"],
+    "response":["Terima kasih banyak kak sebelumnya, untuk pemberian kritik dan saran bisa melalui tautan berikut ini ya www.git-coffee.com/kritik-saran",
+                "Kakak bisa menyampaikan kritik dan saran kakak melalui tautan berikut ya www.git-coffee.com/kritik-saran. Terima kasih banyak",
+                "Kalau kakak ingin memberikan kritik dan saran untuk kita bisa melalui tautan berikut ya kak www.git-coffee.com/kritik-saran, kami sangat berterima kasih atas kritik dan saran yang kakak sampaikan ya",
+                "Kritik dan saran kakak bisa disampaikan melalui www.git-coffee.com/kritik-saran ya kak, terima kasih banyak sudah mau membantu kami untuk berkembang menjadi lebih baik",
+                "Silahkan kunjungi tautan berikut ya kak www.git-coffee.com/kritik-saran untuk kritikan atau saran yang ingin kakak sampaikan, terima kasih banyak atas kepedulian kakak terhadap kami ya, semoga kedepannya bisa menjadi lebih baik dalam memberikan pelayanan"]
+    },
+    {
+    "tag":["arabica"],
+    "pattern":["Kopi arabica apa si?", "Apa itu kopi arabica?", "Jelasin kopi arabica", "Arabica", "Maksudnya kopi arabica apa ya?", "Arabican", "Kopi arabica", "Kopi arabican", "Jelaskan apa itu kopi arabica", "Apa yang dimaksud dengan kopi arabica", "Kopi arabica? Jelasin dong", "Bisa kasih tau maksud kopi arabica?", "Kopi arabica? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi arabica", "Kenapa disebut kopi arabica?", "Maksudnya kopi arabica itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi arabica", "Saya orang awam, jelasin dong kopi arabica itu apa"],
+    "response":["Kopi arabica merupakan kopi yang berasal dari Etiophia di Afrika dan dibawa serta banyak dibudidayakan di Arab, kopi ini sangat digemari banyak orang kak karena memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi. Kopi arabica juga tidak begitu asam... jadi cocok nih buat kakak yang lambungnya tidak terlalu kuat untuk minum kopi",
+                "Kopi arabica merupakan kopi yang sangat digemari banyak orang kak karena memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi. Oiya kak, kopi arabica juga tidak begitu asam nih, jadi bisa dikonsumsi oleh orang yang lambungnya tidak terlalu kuat untuk minum kopi",
+                "Kopi arabica merupakan kopi yang memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi, oleh karena itu jenis kopi arabica merupakan kopi yang banyak digemari banyak orang nih kak... Kopi ini juga tidak begitu asam loh, jadi aman untuk dikonsumsi oleh orang yang tidak terlalu kuat untuk minum kopi",
+                "Kopi yang memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi... Itulah kopi arabica kak, kopi jenis ini juga tidak terlalu asam loh, jadi aman dikonsumsi oleh orang yang lambungnya tidak terlalu kuat untuk minum kopi... hal ini lah yang membuat kopi arabica digemari banyak orang kak"]
+    },
+    {
+    "tag":["robusta"],
+    "pattern":["Kopi robusta apa si?", "Apa itu kopi robusta?", "Jelasin kopi robusta", "Robusta", "Maksudnya kopi robusta apa ya?", "Kopi robusta", "Jelaskan apa itu kopi robusta", "Apa yang dimaksud dengan kopi robusta", "Kopi robusta? Jelasin dong", "Bisa kasih tau maksud kopi robusta?", "Kopi robusta? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi robusta", "Kenapa disebut kopi robusta?", "Maksudnya kopi robusta itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi robusta", "Saya orang awam, jelasin dong kopi robusta itu apa"],
+    "response":["Kopi robusta merupakan kopi yang memiliki kadar kafein rendah namun memiliki kadar gula dan tingkat keasaman yang tinggi... kopi robusta juga memiliki aroma dan cita rasa yang kaya ya kak",
+                "Kopi robusta merupakan kopi yang mempunyai aroma dan cita rasa yang kaya kak, kadar kafein di kopi ini juga terbilang rendah nih... namun kopi robusta memiliki kadar gula dan tingkat keasaman yang tinggi",
+                "Kopi yang memiliki aroma dan cita rasa yang kaya serta kadar kafein yang rendah, namun kopi robusta memiliki kadar gula dan tingkat keasaman yang lebih tinggi, itulah penjelasan dari kopi robusta ya kak"]
+    },
+    {
+    "tag":["beda arabica robusta"],
+    "pattern":["Bedanya kopi arabica dan robusta apa ya?", "Mau tau bedanya kopi robusta dan arabica", "Bedanya arabica dan robusta", "Kan sama-sama kopi ya, bedanya apa sih robusta sama arabica?", "Perbedaannya apa tuh kopi arabica sama robusta", "Apasi perbedaannya kopi robusta sama kopi arabica, jelasin dong", "Mau tau nih perbedaannya kopi robusta sama arabica", "Emang ada bedanya ya kopi arabica sama robusta?", "Jelasakan perbedaan kopi robusta dan arabica", "Perbandingan kopi arabica dan robusta", "Kopi robusta sama arabica? sama gak si?", "Jelasin perbedaan kopi arabica sama robusta dong, masih awam nih", "Saya mau tahu bedanya kopi robusta dan arabica"],
+    "response":["Perbedaan kopi arabica dan robusta ada di tingkat keasamannya, kadar kafein, dan kadar gula ya kak. Jadi kopi robusta itu memiliki tingkat keasaman dan kadar gula yang lebih tinggi dari kopi arabica, namun untuk kadar kafein kopi robusta 2x lebih rendah dari kopi arabica nih. Oiya kalau lambung kakak tidak terlalu kuat untuk mengkonsumsi kopi, kopi arabica lebih cocok karena memiliki tingkat keasaman yang lebih rendah dari kopi robusta",
+                "Kopi robusta memiliki tingkat keasaman dan kadar gula yang lebih tinggi ya kak dibandingkan dengan kopi robusta, namun kadar kafein kopi robusta 2x lebih rendah nih dari kopi arabica. Kopi arabica lebih cocok untuk kakak yang lambungnya tidak terlalu kuat mengkonsumsi kopi ya kak karena memiliki tingkat keasaman yang lebih rendah dari kopi robusta",
+                "Kopi arabica lebih aman dikonsumsi untuk orang yang lambungnya tidak terlalu kuat untuk mengkonsumsi kopi ya kak, ini karena tingkat keasamannya lebih rendah dari kopi robusta. Oiya kopi arabica memiliki kadar gula yang lebih rendah juga nih dari kopi robusta, namun kopi arabica memiliki kadar kafein 2x lebih tinggi dari kopi robusta ya kak"]
     }
 ]
 }
