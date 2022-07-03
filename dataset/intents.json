@@ -32,7 +32,7 @@
                 "Jangan sungkan untuk tanya-tanya lagi ya kak! see you!"]
     },
     {
-    "tag":"nama toko",
+    "tag":"namatoko",
     "pattern":["Apa itu Git Coffee?","Git Coffee apaan sih?","Ada apa aja di Git Coffee","Boleh tahu Git Coffee itu apa?","Jelasi dong apa itu Git Coffee", "Mau tau nih soal Git Coffee","Deskripsi dari Git Coffee apaya?", "Git Coffee apasih? mau tau dong", "Git Coffee", "Jelasin Git Coffee bisa kali ya","Mau dong dijelasin tentang Git Coffee","Git Coffee apasi? baru denger nih","Namanya menarik nih Git Coffee, jelasin dong apa itu Git Coffee","Git Coffee tempat ngopi ya?","Git Coffee itu apaya? bisa beli kopi disini?","Ceritain tentang Git Coffee dong","Bisa ceritain sedikit tentang Git Coffee?"],
     "response":["Git Coffee adalah sebuah toko online yang menjual berbagai macam kopi produksi sendiri. Kami memiliki banyak jenis coffee siap saji yaitu arabica, robusta, luwak, latte, macchiato, dan kopi berbagai rasa lainnya kak",
                 "Git Coffee menjual berbagai macam kopi siap saji produksi sendiri nih kak. Ada kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Silakan melihat katalog kami yaa untuk lebih lengkapnya di www.Git Coffee.com (:",
@@ -146,7 +146,7 @@
                 "Silahkan isi form pengaduan pada tautan berikut www.git-coffee.com/form-aduan kak, nanti komplain kakak akan kami proses dalam waktu 1x24 jam ya, mohon ditunggu dan maaf atas ketidaknyamanannya"]
     },
     {
-    "tag":["produk"],
+    "tag":"produk",
     "pattern":["Jual produk apa?", "Jualan apa si?", "Yang dijual apa ya?", "Mau tau produknya dong", "Git coffee jualan apa si?", "Apa yang dijual disini?", "Disini jualan apaan?", "Apa produk yang kamu jual?", "Jualan produk apa aja disini si?", "Mau tau produknya", "Tertarik sama tokonya nih, jualan apa aja ya?", "Kasih tau produk yang anda jual", "Beritahu produk kalian dong", "Produk yang dijual apa aja ya? banyak ga?", "Ada berapa macam produk yang dijual disini?", "Mau beli nih, ada apa aja si produknya yang dijual", "Produk", "Jualan", "Jualan apa?", "Daftar produknya dong"],
     "response":["Git Coffee menjual kopi dalam bentuk bubuk kak seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Kalau kakak penasaran sama info lengkap produk yang kami jual bisa dilihat pada www.git-coffe.com/produk ya kak... Kopi mana nih yang jadi favorit kakak?",
                 "Di Git Coffee kita menjual kopi dalam bentuk bubuk ya kak seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya, info produk secara lengkapnya bisa kakak lihat di www.git-coffee.com/produk ya kak",
@@ -155,7 +155,7 @@
                 "Kopi dalam bentuk bubuk adalah produk yang kami jual kak, untuk variannya seperti kopi arabica, robusta, luwak, latte, macchiato, dan ada juga kopi dengan berbagai rasa lainnya. Informasi lengkap produknya bisa kaka lihat di www.git-coffee.com/produk ya kak"]
     },
     {
-    "tag":["kritik saran"],
+    "tag":"kritik saran",
     "pattern":["Mau kasih kritik nih", "Aku ada saran buat kalian", "Bisa kasih masukan?", "Boleh kan kasih masukan ke kalian?", "Boleh kasih kritikan ke kalian?", "Kritikan", "Saran", "Memberi kritik dan saran", "Mau ngasih kritik dan saran gemana caranya?", "Mau ngasih masukan buat kalian tapi gatau caranya", "Kalau mau ngasih masukan lewat mana ya?","Masukan","Aku punya kritik sama saran nih buat kalian", "Aku punya masukan yang bagus nih buat git coffee", "Aku punya ide menarik untuk bisnismu", "Mau ngasih ide buat jualannya", "Ide", "Ada ide menarik nih buat kalian, ada kritikan juga", "Ada kritikan yang ingin saya beri", "Ada beberapa masukan yang ingin saya sampaikan", "Ada kritikan yang ingin saya sampaikan untuk kalian"],
     "response":["Terima kasih banyak kak sebelumnya, untuk pemberian kritik dan saran bisa melalui tautan berikut ini ya www.git-coffee.com/kritik-saran",
                 "Kakak bisa menyampaikan kritik dan saran kakak melalui tautan berikut ya www.git-coffee.com/kritik-saran. Terima kasih banyak",
@@ -164,26 +164,48 @@
                 "Silahkan kunjungi tautan berikut ya kak www.git-coffee.com/kritik-saran untuk kritikan atau saran yang ingin kakak sampaikan, terima kasih banyak atas kepedulian kakak terhadap kami ya, semoga kedepannya bisa menjadi lebih baik dalam memberikan pelayanan"]
     },
     {
-    "tag":["arabica"],
-    "pattern":["Kopi arabica apa si?", "Apa itu kopi arabica?", "Jelasin kopi arabica", "Arabica", "Maksudnya kopi arabica apa ya?", "Arabican", "Kopi arabica", "Kopi arabican", "Jelaskan apa itu kopi arabica", "Apa yang dimaksud dengan kopi arabica", "Kopi arabica? Jelasin dong", "Bisa kasih tau maksud kopi arabica?", "Kopi arabica? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi arabica", "Kenapa disebut kopi arabica?", "Maksudnya kopi arabica itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi arabica", "Saya orang awam, jelasin dong kopi arabica itu apa"],
+    "tag":"arabica",
+    "pattern":["Kopi arabica apa si?", "Apa itu kopi arabica?", "Jelasin kopi arabica", "Arabica", "Maksudnya kopi arabica apa ya?", "Arabican", "Kopi arabica", "Kopi arabican", "Jelaskan apa itu kopi arabica", "Apa yang dimaksud dengan kopi arabica", "Kopi arabica? Jelasin dong", "Bisa kasih tau maksud kopi arabica?", "Kopi arabica? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi arabica", "Kenapa disebut kopi arabica?", "Maksudnya kopi arabica itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi arabica", "Saya orang awam, jelasin dong kopi arabica itu apa", "arabica rasanya gimana?", "kopi arabica itu apa?", "tolong jelasin tentang kopi arabica dong"],
     "response":["Kopi arabica merupakan kopi yang berasal dari Etiophia di Afrika dan dibawa serta banyak dibudidayakan di Arab, kopi ini sangat digemari banyak orang kak karena memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi. Kopi arabica juga tidak begitu asam... jadi cocok nih buat kakak yang lambungnya tidak terlalu kuat untuk minum kopi",
                 "Kopi arabica merupakan kopi yang sangat digemari banyak orang kak karena memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi. Oiya kak, kopi arabica juga tidak begitu asam nih, jadi bisa dikonsumsi oleh orang yang lambungnya tidak terlalu kuat untuk minum kopi",
                 "Kopi arabica merupakan kopi yang memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi, oleh karena itu jenis kopi arabica merupakan kopi yang banyak digemari banyak orang nih kak... Kopi ini juga tidak begitu asam loh, jadi aman untuk dikonsumsi oleh orang yang tidak terlalu kuat untuk minum kopi",
-                "Kopi yang memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi... Itulah kopi arabica kak, kopi jenis ini juga tidak terlalu asam loh, jadi aman dikonsumsi oleh orang yang lambungnya tidak terlalu kuat untuk minum kopi... hal ini lah yang membuat kopi arabica digemari banyak orang kak"]
+                "Kopi yang memiliki rasa yang lebih kompleks, rasa manis dan asam yang pas, karakteristik yang smooth, serta keseimbangan kenikmatan yang sulit disaingi... Itulah kopi arabica kak, kopi jenis ini juga tidak terlalu asam loh, jadi aman dikonsumsi oleh orang yang lambungnya tidak terlalu kuat untuk minum kopi... hal ini lah yang membuat kopi arabica digemari banyak orang kak",
+                "Arabica adalah salah satu jenis kopi yang kami produksi dengan rasa manis dan aroma lebih segar dari kopi robusta. Kopi arabica cocok untuk penikmat kopi autentik dan sudah nikmat untuk dikonsumsi tanpa tambahan gula/krimer."]
     },
     {
-    "tag":["robusta"],
-    "pattern":["Kopi robusta apa si?", "Apa itu kopi robusta?", "Jelasin kopi robusta", "Robusta", "Maksudnya kopi robusta apa ya?", "Kopi robusta", "Jelaskan apa itu kopi robusta", "Apa yang dimaksud dengan kopi robusta", "Kopi robusta? Jelasin dong", "Bisa kasih tau maksud kopi robusta?", "Kopi robusta? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi robusta", "Kenapa disebut kopi robusta?", "Maksudnya kopi robusta itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi robusta", "Saya orang awam, jelasin dong kopi robusta itu apa"],
+    "tag":"robusta",
+    "pattern":["Kopi robusta apa si?", "Apa itu kopi robusta?", "Jelasin kopi robusta", "Robusta", "Maksudnya kopi robusta apa ya?", "Kopi robusta", "Jelaskan apa itu kopi robusta", "Apa yang dimaksud dengan kopi robusta", "Kopi robusta? Jelasin dong", "Bisa kasih tau maksud kopi robusta?", "Kopi robusta? apaan tuh? baru denger", "Aku masih awam sama kopi, jelasin dong maksud kopi robusta", "Kenapa disebut kopi robusta?", "Maksudnya kopi robusta itu apa ya? jelasin dong", "Jelasin dulu apa itu kopi robusta", "Saya orang awam, jelasin dong kopi robusta itu apa","robusta rasanya gimana?”, “kopi robusta itu apa?”, “tolong jelasin tentang kopi robusta dong"],
     "response":["Kopi robusta merupakan kopi yang memiliki kadar kafein rendah namun memiliki kadar gula dan tingkat keasaman yang tinggi... kopi robusta juga memiliki aroma dan cita rasa yang kaya ya kak",
                 "Kopi robusta merupakan kopi yang mempunyai aroma dan cita rasa yang kaya kak, kadar kafein di kopi ini juga terbilang rendah nih... namun kopi robusta memiliki kadar gula dan tingkat keasaman yang tinggi",
-                "Kopi yang memiliki aroma dan cita rasa yang kaya serta kadar kafein yang rendah, namun kopi robusta memiliki kadar gula dan tingkat keasaman yang lebih tinggi, itulah penjelasan dari kopi robusta ya kak"]
+                "Kopi yang memiliki aroma dan cita rasa yang kaya serta kadar kafein yang rendah, namun kopi robusta memiliki kadar gula dan tingkat keasaman yang lebih tinggi, itulah penjelasan dari kopi robusta ya kak",
+                "robusta adalah salah satu jenis kopi yang kami produksi dengan rasa pahit dan aroma seperti kacang. Kopi robusta cocok untuk disajikan bersama bahan lainnya seperti gula, krimer, dan susu. Kopi ini juga cocok digunakan sebagai base kopi dengan berbagai rasa seperti latte dan macchiato."]
     },
     {
-    "tag":["beda arabica robusta"],
+    "tag":"beda arabica robusta",
     "pattern":["Bedanya kopi arabica dan robusta apa ya?", "Mau tau bedanya kopi robusta dan arabica", "Bedanya arabica dan robusta", "Kan sama-sama kopi ya, bedanya apa sih robusta sama arabica?", "Perbedaannya apa tuh kopi arabica sama robusta", "Apasi perbedaannya kopi robusta sama kopi arabica, jelasin dong", "Mau tau nih perbedaannya kopi robusta sama arabica", "Emang ada bedanya ya kopi arabica sama robusta?", "Jelasakan perbedaan kopi robusta dan arabica", "Perbandingan kopi arabica dan robusta", "Kopi robusta sama arabica? sama gak si?", "Jelasin perbedaan kopi arabica sama robusta dong, masih awam nih", "Saya mau tahu bedanya kopi robusta dan arabica"],
     "response":["Perbedaan kopi arabica dan robusta ada di tingkat keasamannya, kadar kafein, dan kadar gula ya kak. Jadi kopi robusta itu memiliki tingkat keasaman dan kadar gula yang lebih tinggi dari kopi arabica, namun untuk kadar kafein kopi robusta 2x lebih rendah dari kopi arabica nih. Oiya kalau lambung kakak tidak terlalu kuat untuk mengkonsumsi kopi, kopi arabica lebih cocok karena memiliki tingkat keasaman yang lebih rendah dari kopi robusta",
                 "Kopi robusta memiliki tingkat keasaman dan kadar gula yang lebih tinggi ya kak dibandingkan dengan kopi robusta, namun kadar kafein kopi robusta 2x lebih rendah nih dari kopi arabica. Kopi arabica lebih cocok untuk kakak yang lambungnya tidak terlalu kuat mengkonsumsi kopi ya kak karena memiliki tingkat keasaman yang lebih rendah dari kopi robusta",
                 "Kopi arabica lebih aman dikonsumsi untuk orang yang lambungnya tidak terlalu kuat untuk mengkonsumsi kopi ya kak, ini karena tingkat keasamannya lebih rendah dari kopi robusta. Oiya kopi arabica memiliki kadar gula yang lebih rendah juga nih dari kopi robusta, namun kopi arabica memiliki kadar kafein 2x lebih tinggi dari kopi robusta ya kak"]
+    },
+    {
+    "tag":"luwak",
+    "pattern":["apasih kopi luwak itu?", "kopi luwak mahal ya?", "tolong jelasin tentang kopi luwak dong"],
+    "response":["kopi luwak merupakan salah satu produk premium kami yang terdiri dari luwak arabica dan luwak robusta. Kopi ini telah melalui proses fermentasi di dalam tubuh luwak. Kopi ini memiliki rasa yang unik dengan rasa pahit akan tetapi memiliki clean aftertaste. Keterangan lebih lanjut silakan lihat catalog kami ya kak (:"]
+    },
+    {
+    "tag":"latte",
+    "pattern":["apasih kopi latte itu?","gimana rasa kopi latte?", "tolong jelasin tentang kopi latte dong"],
+    "response":["kopi latte produksi kami adalah kopi yang siap disajikan dan akan memberikan sensasi creamy untuk kakak. Rasanya sangat autentik jika dibandingkan dengan kopi latte di pasaran yaitu manis dengan sedikit gurih. Kalau penasaran, langsung checkout pesanan saja ya kak :)"]
+    },
+    {
+    "tag":"macchiato",
+    "pattern":["apasih kopi macchiato itu?", "gimana rasa kopi macchiato?", "tolong jelasin tentang kopi macchiato dong"],
+    "response":["kopi macchiato memang mirip dengan kopi latte. Akan tetapi, jika kakak menginginkan rasa kopi susu creamy dengan rasa kopi yang lebih strong, kakak bisa mencoba kopi macchiato yaa! Selain itu, kopi macchiato produksi kami mengandung 2.5 shot kopi espresso dan beberapa tambahan secret recipe loh :D"]
+    },
+    {
+    "tag":"kopikreasi",
+    "pattern":["ada rasa apa aja di kopi kreasi?", "apa itu kopi kreasi?", "tolong jelasin tentang kopi kreasi dong","apa aja varian kopi kreasi?"],
+    "response":["Bagi kakak yang suka dengan petualangan, kakak bisa coba nih kopi kreasi. Kopi ini adalah salah satu produk inovatif kami yang memiliki berbagai varian rasa mulai dari rasa strawberry, coklat, caramel, mint, dan gula aren. Teksturnya lebih light dengan kandungan kafein yang lebih rendah ya kak daripada kopi latte dan macchiato sehingga terasa lebih ringan untuk dikonsumsi."]
     }
 ]
 }
