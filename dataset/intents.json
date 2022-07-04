@@ -221,5 +221,23 @@
     "pattern":["ada rasa apa aja di kopi kreasi?", "apa itu kopi kreasi?", "tolong jelasin tentang kopi kreasi dong","apa aja varian kopi kreasi?"],
     "response":["Bagi kakak yang suka dengan petualangan, kakak bisa coba nih kopi kreasi. Kopi ini adalah salah satu produk inovatif kami yang memiliki berbagai varian rasa mulai dari rasa strawberry, coklat, caramel, mint, dan gula aren. Teksturnya lebih light dengan kandungan kafein yang lebih rendah ya kak daripada kopi latte dan macchiato sehingga terasa lebih ringan untuk dikonsumsi."]
     }
+    "tag":"pahit",
+    "pattern":["Kopi yang pahit apa saja sih kak?","Kopi pahit apa aja?","Kopi pahit apa aja sih kak?","Kopi pahit apa aja ya","Ada saran kopi pahit?","Ada rekomendasi untuk kopi pahit?","Kopi yang pahit itu kopi apa ya","Kopi yang pait apa aja ya","Kopi yang pait apa aja sih","Kopi pahit yang tersedia apa aja","Kopi pahit yang tersedia apa saja ya?","Kopi pait yang tersedia apa saja ya?"],
+    "response":["Kopi pahit itu ada kopi espresso/americano/cappucino/moccachino dan lainnya kak yang tersedia",
+                "Saran saya untuk kopi pahit ada espresso/americano/cappucino/moccachino kak",
+                "Kalau dari saya kakak bisa coba kopi espresso/americano/cappucino/moccachino untuk kopi pahit",
+                "Kopi pahit ada banyak kak, yang rekomendasi adalah kopi espresso/americano/cappucino/moccachino kak",
+                "Kalau kakak lagi cari kopi pahit, saya sarankan untuk coba kopi espresso/americano/cappucino/moccachino kak",
+                "Untuk kopi pahit ada kopi espresso/americano/cappucino/moccachino kak, sudah teruji kepahitannya :)",
+                "Untuk kopi pahit ada banyak kak, salah satunya adalah espresso/americano/cappucino/moccachino"]
+    },
+    {
+    "tag":"kopi_mahal",
+    "pattern":["Kopi termahal itu apa kak?","Kopi paling mahal apa kak?","Kopi yang mahal apa aja kak?","Kopi yang paling mahal itu apa aja sih kak?","Kopi termahal itu apa?","Kopi paling mahal apa?","Kopi yang mahal apa aja?","Kopi yang paling mahal itu apa aja?","Kopi mahal","Kopi termahal","Kopi mahal banget","Kopi yang mahal banget apa?","Kopi yang paling mahal","Kopi mahal banget itu kopi apa"],
+    "response":["Kopi paling mahal itu Black Ivory, yang per 450gram nya seharga $500 atau 7.5 Juta Rupiah",
+                "Kopi mahal itu ada banyak, salah satunya yang termahal adalah kopi blackivory/luwak/fincaelinjerto dan lain lain",
+                "Kopi paling mahal yang gitcoff tau itu ada kopi blackivory/fincalinjerto/luwak",
+                "Kopi termahal itu adalah kopi Black Ivory"]
+    }
 ]
 }
