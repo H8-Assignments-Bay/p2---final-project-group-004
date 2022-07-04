@@ -204,23 +204,28 @@
     {
     "tag":"luwak",
     "pattern":["apasih kopi luwak itu?", "kopi luwak mahal ya?", "tolong jelasin tentang kopi luwak dong"],
-    "response":["kopi luwak merupakan salah satu produk premium kami yang terdiri dari luwak arabica dan luwak robusta. Kopi ini telah melalui proses fermentasi di dalam tubuh luwak. Kopi ini memiliki rasa yang unik dengan rasa pahit akan tetapi memiliki clean aftertaste. Keterangan lebih lanjut silakan lihat catalog kami ya kak (:"]
+    "response":["kopi luwak merupakan salah satu produk premium kami yang terdiri dari luwak arabica dan luwak robusta. Kopi ini telah melalui proses fermentasi di dalam tubuh luwak. Kopi ini memiliki rasa yang unik dengan rasa pahit akan tetapi memiliki clean aftertaste. Keterangan lebih lanjut silakan lihat catalog kami ya kak (:",
+        "Kalau kakak mau mencoba kopi yang memiliki clean aftertaste, silakan coba kopi luwak aja kak! Kopi luwak produksi kami hadir di edisi premium dengan base kopinya adalah arabica dan robusta. Silakan kunjungi katalog kami ya kak untuk keterangan lebih lanjut :)"]
     },
     {
     "tag":"latte",
     "pattern":["apasih kopi latte itu?","gimana rasa kopi latte?", "tolong jelasin tentang kopi latte dong"],
-    "response":["kopi latte produksi kami adalah kopi yang siap disajikan dan akan memberikan sensasi creamy untuk kakak. Rasanya sangat autentik jika dibandingkan dengan kopi latte di pasaran yaitu manis dengan sedikit gurih. Kalau penasaran, langsung checkout pesanan saja ya kak :)"]
+    "response":["kopi latte produksi kami adalah kopi yang siap disajikan dan akan memberikan sensasi creamy untuk kakak. Rasanya sangat autentik jika dibandingkan dengan kopi latte di pasaran yaitu manis dengan sedikit gurih. Kalau penasaran, langsung checkout pesanan saja ya kak :)",
+                "Bagi kalian yang memiliki selera kopi creamy dan manis serta sedikit gurih, kopi latte produksi kami adalah pilihan yang tepat untuk kakak nih!"]
     },
     {
     "tag":"macchiato",
-    "pattern":["apasih kopi macchiato itu?", "gimana rasa kopi macchiato?", "tolong jelasin tentang kopi macchiato dong"],
-    "response":["kopi macchiato memang mirip dengan kopi latte. Akan tetapi, jika kakak menginginkan rasa kopi susu creamy dengan rasa kopi yang lebih strong, kakak bisa mencoba kopi macchiato yaa! Selain itu, kopi macchiato produksi kami mengandung 2.5 shot kopi espresso dan beberapa tambahan secret recipe loh :D"]
+    "pattern":["apasih kopi macchiato itu?", "gimana rasa kopi macchiato?", "tolong jelasin tentang kopi macchiato dong", "perbedaan macchiato dan latte apa?", "bedanya latte dan macchiato?"],
+    "response":["kopi macchiato memang mirip dengan kopi latte. Akan tetapi, jika kakak menginginkan rasa kopi susu creamy dengan rasa kopi yang lebih strong, kakak bisa mencoba kopi macchiato yaa! Selain itu, kopi macchiato produksi kami mengandung 2.5 shot kopi espresso dan beberapa tambahan secret recipe loh :D",
+                "Kopi macchiato memiliki komposisi yang serupa dengan kopi latte. Akan tetapi, kopi macchiato memiliki rasa kopi yang lebih strong karena kopi macchiato produksi kami terdiri dari 2.5 shot kopi espresso dan tambahan secret recipe kak. Silakan diorder yaa kalau penasaran :D"]
     },
     {
     "tag":"kopikreasi",
     "pattern":["ada rasa apa aja di kopi kreasi?", "apa itu kopi kreasi?", "tolong jelasin tentang kopi kreasi dong","apa aja varian kopi kreasi?"],
-    "response":["Bagi kakak yang suka dengan petualangan, kakak bisa coba nih kopi kreasi. Kopi ini adalah salah satu produk inovatif kami yang memiliki berbagai varian rasa mulai dari rasa strawberry, coklat, caramel, mint, dan gula aren. Teksturnya lebih light dengan kandungan kafein yang lebih rendah ya kak daripada kopi latte dan macchiato sehingga terasa lebih ringan untuk dikonsumsi."]
-    }
+    "response":["Bagi kakak yang suka dengan petualangan, kakak bisa coba nih kopi kreasi. Kopi ini adalah salah satu produk inovatif kami yang memiliki berbagai varian rasa mulai dari rasa strawberry, coklat, caramel, mint, dan gula aren. Teksturnya lebih light dengan kandungan kafein yang lebih rendah ya kak daripada kopi latte dan macchiato sehingga terasa lebih ringan untuk dikonsumsi.",
+                "Kopi kreasi adalah salah satu produki inovatif kami nih kak. Tekstur kopi ini lebih ringan dan kandungan kafeinnya lebih rendah dibandingkan dengan kopi latte dan kopi macchiato. Ada berbagai varian rasa loh kak yaitu rasa strawberry, coklat, caramel, mint, dan gula aren. Selamat berpetualang nyobain berbagai variannya ya kak kalau nanti sudah order :D"]
+    },
+    {
     "tag":"pahit",
     "pattern":["Kopi yang pahit apa saja sih kak?","Kopi pahit apa aja?","Kopi pahit apa aja sih kak?","Kopi pahit apa aja ya","Ada saran kopi pahit?","Ada rekomendasi untuk kopi pahit?","Kopi yang pahit itu kopi apa ya","Kopi yang pait apa aja ya","Kopi yang pait apa aja sih","Kopi pahit yang tersedia apa aja","Kopi pahit yang tersedia apa saja ya?","Kopi pait yang tersedia apa saja ya?"],
     "response":["Kopi pahit itu ada kopi espresso/americano/cappucino/moccachino dan lainnya kak yang tersedia",
