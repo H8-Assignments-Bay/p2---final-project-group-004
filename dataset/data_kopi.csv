@@ -1,0 +1,17 @@
+nama,jenis_kopi,deskripsi_kopi,negara,harga
+macchiato,manis,sejenis kopi espresso yang diberikan busa susu diatasnya,italia,70000
+latte,manis,sejenis kopi espresso yang diberi susu,italia,40000
+black ivory,pahit,kopi arabica yang di proses di pencernaan gajah,thailand,7500000
+robusta,pahit,kopi yang memiliki rasa cenderung kuat dan pahit,afrika,50000
+arabica,manis,kopi yang memliki rasa lembut dan manis,ethiopia,80000
+luwak,manis,kopi yang di proses di pencernaan luwak,indonesia,150000
+luwak arabica,manis,kopi arabica yang di proses di pencernaan luwak,indonesia,250000
+luwak robusta,pahit,kopi robusta yang di proses di pencernaan luwak,indonesia,280000
+kopi kreasi strawberry,manis,kopi kreasi dengan menggunakan strawberry,indonesia,90000
+kopi kreasi caramel,manis,kopi kreasi dengan tambahan caramel,indonesia,80000
+kopi kreasi mint,manis,kopi kreasi dengan tambahan mint,indonesia,85000
+kopi kreasi gula aren,manis,kopi kreasi dengan tambahan rasa dari gula aren,indonesia,75000
+moccachino,pahit dan manis,campuran kopi espresso dengan susu dan coklat,italia,60000
+espresso,pahit,kopi dengan tekstur dan aroma yang pekat dan kental,italia,85000
+americano,pahit,kopi yang tidak terlalu pekat dan kental,italia,60000
+cappucino,pahit dan manis,kopi campuran antara susu dengan espresso,italia,65000
