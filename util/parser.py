@@ -13,8 +13,8 @@ class JSONParser:
             self.data = json.load(data_file)
 
         for intent in self.data['intents']:
-            for pattern in intent['pattern']:
-                self.text.append(pattern)
+            for pattern in intent['patterns']:
+                self.chat.append(pattern)
                 self.intents.append(intent['tag'])
             for resp in intent['responses']:
                 if intent['tag'] in self.responses.keys():
@@ -22,7 +22,7 @@ class JSONParser:
                 else:
                     self.responses[intent['tag']] = [resp]
 
-        self.df = pd.DataFrame({'chat_input': self.text,
+        self.df = pd.DataFrame({'text_input': self.chat,
                                 'intents': self.intents})
 
     def get_dataframe(self):
