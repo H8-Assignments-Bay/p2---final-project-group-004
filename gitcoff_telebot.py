@@ -55,7 +55,7 @@ jp.parse(path)
 df = jp.get_dataframe()
 
 # Initiate Bot Token from BotFather
-token = '5494267202:AAFjMzjhoIf1n92q5_HvPIfc6JBmUnh7HPg'
+token = 'Your Bot Token'
 updater = Updater(token, use_context=True)
 dp = updater.dispatcher
 
