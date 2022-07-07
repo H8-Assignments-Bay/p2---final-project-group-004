@@ -55,7 +55,7 @@ jp.parse(path)
 df = jp.get_dataframe()
 
 # Initiate Bot Token from BotFather
-token = 'Your Bot Token'
+token = 'YOUR TELEGRAM BOT API TOKEN'
 updater = Updater(token, use_context=True)
 dp = updater.dispatcher
 

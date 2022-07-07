@@ -49,14 +49,14 @@ jp.parse(path)
 df = jp.get_dataframe()
 
 # Preprocessing Chat Text with Case Folding
-df['chat_input_prep'] = df.text_input.apply(chat_processing)
+df['chat_input_prep'] = df.chat_input.apply(chat_processing)
 
 # Modeling
 nb_pipeline = make_pipeline(CountVectorizer(),
                             MultinomialNB())
 
 # Train Model
-print("[INFO] GitCoff is studying our language...")
+print("[Info] GitCoff is studying our language...")
 nb_pipeline.fit(df.chat_input_prep, df.intents)
 
 # Save Model for deployment
@@ -64,7 +64,7 @@ with open("chatbot.pkl", "wb") as model_file:
     pickle.dump(nb_pipeline, model_file)
 
 # interaction with bot
-print("[INFO] Selamat!, kakak telah terhubung dengan Gitcoff, sebuah Chatbot AI dari Git Coffee")
+print("[Info] Selamat!, kakak telah terhubung dengan Gitcoff, sebuah Chatbot AI dari Git Coffee")
 while True:
     chat = input("Anda    >> ")
     res, tag = response(chat, nb_pipeline, jp)

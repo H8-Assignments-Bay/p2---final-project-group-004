@@ -22,7 +22,7 @@ class JSONParser:
                 else:
                     self.responses[intent['tag']] = [resp]
 
-        self.df = pd.DataFrame({'text_input': self.chat,
+        self.df = pd.DataFrame({'chat_input': self.chat,
                                 'intents': self.intents})
 
     def get_dataframe(self):
