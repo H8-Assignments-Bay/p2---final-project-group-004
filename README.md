@@ -21,3 +21,7 @@ We build our own dataset in order to have a relevan dataset and in to complete t
     - pattern : the data that represent the input for GitCoff from user/customer and will be trained later to the model.
     - responses : defines the responses that will be selected randomly as the output for the input.
 2. data_kopi.csv : contains 5 informations, dataset for recommeder system.
+
+## Telegram Bot
+https://t.me/gitcoffee_bot <br><br>
+Here the link for our Chat Bot
