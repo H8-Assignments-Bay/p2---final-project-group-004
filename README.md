@@ -20,7 +20,7 @@ We build our own dataset in order to have a relevan dataset and in to complete t
     - tag : defines the class of the question/input and the answer/output.
     - pattern : the data that represent the input for GitCoff from user/customer and will be trained later to the model.
     - responses : defines the responses that will be selected randomly as the output for the input.
-2. data_kopi.csv : contains 5 informations, dataset for recommeder system.
+2. data_kopi.csv : contains 8 informations about data coffee, dataset for recommeder system.
 
 ## Telegram Bot
 https://t.me/gitcoffee_bot <br><br>
