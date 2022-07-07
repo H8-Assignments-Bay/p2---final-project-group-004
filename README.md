@@ -32,3 +32,8 @@ Here the link for our Chat Bot
 - https://www.ngopdar.com/blog/biji-kopi/biji-kopi-arabika/
 - https://github.com/gcatanese/TelegramBotDemo
 - https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2
+- https://www.cnnindonesia.com/gaya-hidup/20220321161617-262-774311/7-kopi-termahal-di-dunia-ada-kopi-luwak-indonesia
+- https://www.gordi.id/blogs/updates/perbedaan-rasa-kopi-arabika-vs-kopi-robusta
+- https://www.sasamecoffee.com/kopipedia/mengenal-kopi-luwak/
+- https://www.nescafe.com/id/artikel/mengenal-kopi-macchiato
+- https://www.cnnindonesia.com/gaya-hidup/20190723151701-262-414766/memahami-beda-cappuccino-latte-dan-mochaccino
