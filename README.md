@@ -25,3 +25,8 @@ We build our own dataset in order to have a relevan dataset and in to complete t
 ## Telegram Bot
 https://t.me/gitcoffee_bot <br><br>
 Here the link for our Chat Bot
+
+## Reference
+- https://www.ngopdar.com/blog/biji-kopi/biji-kopi-arabika/
+- https://github.com/gcatanese/TelegramBotDemo
+- https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2
